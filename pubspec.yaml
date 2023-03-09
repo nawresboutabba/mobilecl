@@ -1,0 +1,67 @@
+name: nawres_boutabba_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  dotted_border: 2.0.0+3
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.17.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Inria Sans
+      fonts: 
+        - asset: assets/fonts/InriaSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/InriaSansRegular.ttf
+          weight: 400
+    - family: Merriweather
+      fonts: 
+        - asset: assets/fonts/MerriweatherRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+    - family: Nunito
+      fonts: 
+        - asset: assets/fonts/NunitoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/NunitoItalicRegular.ttf
+          weight: 400
+        - asset: assets/fonts/NunitoExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/NunitoBold.ttf
+          weight: 700
+    - family: Open Sans
+      fonts: 
+        - asset: assets/fonts/OpenSans.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSansRomanLight.ttf
+          weight: 300
+        - asset: assets/fonts/OpenSansLight.ttf
+          weight: 300
